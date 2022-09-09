@@ -13,6 +13,10 @@ function Grid() {
 
   return (
     <div>
+      <h1>APP SQUARE</h1>
+      <h5>By : Rian Arsa</h5>
+      <hr />
+      {gridTiles.length !== 0 && <h4>Ketuk 2 kali untuk menghapus</h4>}
       <div style={{ maxWidth: 400, overflow: "hidden" }}>
         {gridTiles.map((tile, index) => {
           return (
@@ -26,6 +30,8 @@ function Grid() {
       </div>
       <br />
       <hr />
+
+      <h4>Silahkan klik salah satu kotak dibawah untuk membuat kotak diatas</h4>
 
       <div>
         {colors.map((color) => {

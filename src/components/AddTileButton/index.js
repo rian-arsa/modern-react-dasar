@@ -5,8 +5,9 @@ function AddTileButton({ onClick, color }) {
   const buttonStyles = {
     backgroundColor: color,
     display: "inline-block",
-    width: 20,
-    height: 20,
+    width: 50,
+    height: 50,
+    marginRight: "10px",
     cursor: "pointer",
     border: "1px solid black",
   };

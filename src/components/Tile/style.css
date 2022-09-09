@@ -1,6 +1,6 @@
 .tile {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border: 2px solid black;
   float: left;
   margin: 0 5px 10px 5px;
